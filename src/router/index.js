@@ -15,6 +15,11 @@ const router = createRouter({
       component: () => import('../views/FoodView.vue'),
     },
     {
+      path: '/create-food',
+      name: 'create-food',
+      component: () => import('../views/CreateFood.vue'),
+    },
+    {
       path: '/transaksi',
       name: 'transaksi',
       component: () => import('../components/HelloWorld.vue'),
